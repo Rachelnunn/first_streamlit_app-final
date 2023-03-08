@@ -5,3 +5,5 @@ streamlit.header('Breakfast Menu')
 streamlit.text('Avocado on soughdough')
 streamlit.text('Eggs benedict')
 streamlit.text('Full English')
+
+streamlit.header('Build your own smoothie!')
