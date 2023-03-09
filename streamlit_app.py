@@ -26,7 +26,7 @@ try:
       streamlit.dataframe(fruityvice_normalized)
 except URLError as e:
   streamlit.error()
-streamlit.stop() 
+streamlit.stop()
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 my_cur = my_cnx.cursor()
 my_cur.execute("select * from fruit_load_list")
